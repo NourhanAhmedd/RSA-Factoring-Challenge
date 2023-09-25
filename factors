@@ -1,17 +1,13 @@
 #!/usr/bin/python3
-# library to get arguments
-
-/* import sys: */
-
+# import sys:
 import sys
 
-/* fn function: */
-# fn unpack number factorial
+# fn function:
 def fc():
     """
     function fc to search file to convert number and format n=p*q
     """
-    /* try & except: */
+    # try & except:
     try:
         revfile = sys.argv[1]
         with open(revfile) as f:
@@ -32,5 +28,4 @@ def fc():
         pass
 
 
-# autostart
 fc()
